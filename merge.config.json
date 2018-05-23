@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "mp-pages/pages/index/index"
+  ],
+  "subPackages": [
+    {
+      "root": "mp-pages/pages/ucenter",
+      "pages": [
+        "mp-pages/pages/ucenter/ucenter"
+      ]
+    }
+  ]
+}
