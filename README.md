@@ -1,18 +1,18 @@
 # mpvue-merge-shell
 mpvue和第三方框架合并打包脚本
 
-#此脚本实现的功能：
+# 此脚本实现的功能：
 
 1.自动化编译mpvue项目和第三方项目
 2.把编译后的两个项目合并
 3.合并后修改app.json文件，支持小程序分包
 
-#此脚本的使用方法：
+# 此脚本的使用方法：
 
 把build文件夹和merge.config.json文件拷贝到你的mpvue项目中，安装所需的npm包
 按照如下提示修改merge.js文件，修改完毕，执行npm run merge即可。
 
-#需要修改的merge.js中的几个地方：
+# 需要修改的merge.js中的几个地方：
 
 1.把mpvue的项目名称修改成你自己的项目名，此处我使用的是mpvue_project
 2.把第三方项目的名称修改为你自己的项目名，此处我使用的是projectB
